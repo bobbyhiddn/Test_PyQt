@@ -10,6 +10,7 @@ cat TheTome.pub
 eval `ssh-agent -s`
 7. Add your key.
 ssh-add.exe /d/Keys/.ssh/TheTome
+(OR run this script: /d/scripts/Git-SSH.sh)
 8. Test using 'ssh -T git@github.com'.
 It should return: Hi bobbyhiddn! You've successfully authenticated, but GitHub does not provide shell access.
 
